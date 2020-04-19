@@ -25,10 +25,11 @@ header {
 
 .main {
     width: 380px;
-    height: 673px;
+    height: 620px;
     background-color: white;
     border: 1px solid #c7c7c7;
-    border-radius: 2px;
+    border-bottom: none;
+    border-radius: 2px 2px 0 0;
     margin: 0 auto;
 }
 
@@ -38,7 +39,6 @@ footer {
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
-    background-color: steelblue;
 }
 
 .haveaccount-signin {
@@ -149,6 +149,10 @@ footer {
     padding: 30px;
 }
 
+.create-account-title-description {
+    padding-bottom: 20px;
+}
+
 .create-account-title {
     color: #4C4C4C;
     line-height: 1.1;
@@ -180,6 +184,143 @@ footer {
     font-weight: 300;
     line-height: 1.2;
 }
+
+fieldset {
+    border: none;
+}
+
+input {
+    width: 100%;
+}
+
+.label-email,
+.label-phone,
+.label-password {
+    color: #404040;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.inputemail,
+.inputphone {
+    padding-top: 6px;
+}
+
+.inputpassword {
+    padding-top: 9px;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 34px;
+    width: 320px;
+    min-width: 160px;
+    border: 1px solid #c1c6c8;
+    color: #000000;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 8px;
+    padding-right: 6px;
+    font-size: 16.8px;
+    line-height: 21.8333px;
+    border-radius: 3px;
+}
+
+.inputemail {
+    margin-bottom: 30px;
+}
+
+.sms-warning {
+    min-height: 20px;
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.createaccount-btn {
+    background-color: #0077c5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 1px 1px 0px;
+    color: white;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    font-size: 15.75px;
+    height: 44px;
+    line-height: 22.5px;
+    padding: 6px 12px;
+    vertical-align: middle;
+    width: 100%;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.lock-image-create-account {
+    width: 12.6px;
+	height: 15px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAwCAMAAAClrpMkAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC6UExURUdwTP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////3HoUvYAAAA9dFJOUwCrcV0ZYP6AMaL2lhCgWMgEKPEtUX9BqCfRDVU2y9X5OsDkAQbuFePEJC7TD7Q4E4QHfDD6DLJCell9Q8cCdpKaAAABLUlEQVQ4y92V13KDMBBFsWmxKe69995Lqv7/t3KFNQnIwsvkyZP7hI6ORmIXDZr2t1x85/p1dfzLQ2vnZNktWWcXr7Um7DeTVpyWtlg4VlqtmcHkRl8aS30TLDFVWokfrbsVo22XH7Kk8AaYmLs/Q3eO8eBeqwLPpiEwnYFU77wUaDlCyiApWcsXGVuNImi0YqyYl7w+FtsSs8H6EnsHe5XYJ5gv1xisILECmFzrCpghMQOsojiLyrP/nXfYZ5AGb2YmGt7yBn/YH+DpjI4udqRiP5HXy3m5Hu116mD1DuUN10FR10PCM8OX/oG3EN6C8JrCaxJeW3htwvOE5xGedXsR0yLrXAOrJekbWKL+jrVxIu/N/Xjm7y/OOybwjvBOZ1I7n4Jr/0LFSP4f/QY7TeMSyZCaMgAAAABJRU5ErkJggg==);
+	background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: 2px;
+    line-height: 22.5px;
+    position: relative;
+    top: 2px;
+}
+
+.createaccount-agreement {
+    text-align: center;
+    line-height: 21px;
+}
+
+.create-account-agreement-text {
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    line-height: 18px;
+}
+
+.terms-link,
+.privacy-link {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.privacy-policy-terms-of-use {
+    text-align: center;
+    background-color: #ECEEF1;
+    padding: 14px 16px 14px 14px;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    height: 53px;
+    width: 380px;
+    margin: 0 auto;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.privacy-policy-terms-of-use-text {
+    font-size: 10px;
+    color: #8d9096;
+    padding-bottom: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.privacy-policy,
+.terms-of-use {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+
 
 @media screen and (min-width: 768px) {
 
