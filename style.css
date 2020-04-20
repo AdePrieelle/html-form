@@ -25,12 +25,14 @@ header {
 
 .main {
     width: 380px;
-    height: 620px;
+    height: 673px;
     background-color: white;
     border: 1px solid #c7c7c7;
-    border-bottom: none;
-    border-radius: 2px 2px 0 0;
+    border-radius: 2px;
     margin: 0 auto;
+    position: relative;
+    padding: 30px;
+    margin-top: -1px;
 }
 
 footer {
@@ -39,6 +41,9 @@ footer {
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
+    font-size: 12px;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
 }
 
 .haveaccount-signin {
@@ -143,10 +148,6 @@ footer {
     width: 74px;
     height: 22px;
     margin-top: 1px;
-}
-
-.main {
-    padding: 30px;
 }
 
 .create-account-title-description {
@@ -254,7 +255,7 @@ input {
     vertical-align: middle;
     width: 100%;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 41px;
 }
 
 .lock-image-create-account {
@@ -293,23 +294,21 @@ input {
 .privacy-policy-terms-of-use {
     text-align: center;
     background-color: #ECEEF1;
-    padding: 14px 16px 14px 14px;
+    margin: 0px -0px 0px -30px;
+    padding: 16px;
     font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
-    height: 53px;
-    width: 380px;
-    margin: 0 auto;
-    border: 1px solid #c7c7c7;
-    border-top: none;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    width: 378px;
 }
 
 .privacy-policy-terms-of-use-text {
     font-size: 10px;
     color: #8d9096;
     padding-bottom: 15px;
+    margin-left: -3px;
     text-align: center;
     line-height: 15px;
 }
@@ -320,7 +319,34 @@ input {
     color: #0077C5;
 }
 
+.legal-privacy-security-row {
+    padding-bottom: 0;
+}
 
+.legal-privacy-security-list {
+    font-size: 12px;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial sans-serif;
+    padding-top: 5px;
+}
+
+li {
+    display: inline-block;
+}
+
+.link-legal-privacy-security-list {
+    text-decoration: none;
+    color: #505050;
+}
+
+.list-privacy,
+.list-security {
+    padding-left: 10px;
+}
+
+.footer-copyright-terms-row {
+    font-size: 12px;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial sans-serif;
+}
 
 @media screen and (min-width: 768px) {
 
